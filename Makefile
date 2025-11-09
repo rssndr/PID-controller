@@ -13,17 +13,20 @@ LIBS =
 TARGET = main
 
 # Source files
-SRCS = main.c
+SRCS = main.c pid.c
 
-# Object files (now in build/)
-OBJS = build/$(SRCS:.c=.o)
+# Object files (in build/)
+OBJS = $(SRCS:%.c=build/%.o)
 
 # Default target
 all: build/$(TARGET)
 
 # Create build directory
 build:
-	mkdir -p build
+	@mkdir -p build
+
+# Mark 'build' as not a real file
+.PHONY: build all clean run
 
 # Linking the target executable
 build/$(TARGET): $(OBJS)
