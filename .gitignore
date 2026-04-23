@@ -23,6 +23,9 @@ build/
 # Executables (for cross-platform or external builds)
 *.exe
 
+# Flight log
+*.csv
+
 # Python venv
 venv/
 

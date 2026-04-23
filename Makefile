@@ -38,7 +38,7 @@ build/%.o: %.c | build
 
 # Clean up
 clean:
-	rm -rf build
+	rm -rf build flight_log.csv
 
 # Run the program
 run: build/$(TARGET)
