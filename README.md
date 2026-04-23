@@ -58,5 +58,4 @@ Press any key after the simulation ends to close the plot window.
 
 ## Gallery
 
-https://raw.githubusercontent.com/rssndr/PID-controller/blob/master/demo.mp4
-
+https://github.com/rssndr/PID-controller/raw/refs/heads/master/demo.mp4
