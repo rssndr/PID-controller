@@ -33,7 +33,6 @@ float pid_update(PID_Controller* pid, float feedback, uint32_t now_ms) {
 
     float derivative = (feedback - pid->prev_feedback) / dt;
 
-    // Corrected: use pid->integral (old value), not integral_new
     float output = pid->kp * error
                  + pid->ki * pid->integral
                  - pid->kd * derivative;
