@@ -56,6 +56,7 @@ Press any key after the simulation ends to close the plot window.
 - 3D visualization / GUI
 - More disturbance tests (lateral wind, payload drop, etc.)
 
-## Gallery
+## Demo Video
 
-https://github.com/rssndr/PID-controller/raw/refs/heads/master/demo.mp4
+![](demo.gif)
+
